@@ -1,0 +1,122 @@
+.bordertest
+ {
+     border:5px solid black;
+ }
+
+ .colormenu
+ {
+     background-color: black;
+     border-radius:2px
+     
+ }
+ .colormenu :hover{
+    color:black;
+ }
+ .textcolorgray{
+    color:darkgray;
+ }
+ .textcolorblack{
+     color:black;
+ }
+ .fontuse{
+    font-family:Poppins, sans-serif, Arial, Helvetica;
+}
+.fontweightheavy{
+    font-weight:700;
+}
+.fontweightmedium{
+    font-weight: 650
+}
+.fontweightbold{
+    font-weight:bold;
+}
+.fontweightnormal{
+   font-weight:normal;
+}
+.fontsizesmall{
+    font-size:15px;
+}
+.fontsizeverybig{
+   font-size:55px;
+}
+.fontsizebig{
+    font-size:25px;
+}
+.fontsizemedium{
+    font-size:17px;
+}
+.fontsizeverysmall{
+    font-size:13px;
+}
+.fontsizeinpx{
+    font-size: 2em;
+}
+.textcolorwhite{
+    color:white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffe34d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 12px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: orange;}
+div:hover{background-color: orange}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: orange;}
+.dropbtn {
+    background-color: #ffe34d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+  }
+div#carouselgeneric {
+    position:relative;
+}
+
+div.generic {
+    position:absolute;
+    z-index:9999999;
+    top:50%; 
+    left:38%; 
+    right:auto; 
+    bottom:auto; 
+}
+div.generic1 {
+    position:absolute;
+    z-index:9999999;
+    top:47%; 
+    left:38%; 
+    right:auto; 
+    bottom:auto; 
+}
+div.generic-error{
+    position:absolute;
+    z-index:9999999;
+    top:60%; 
+    left:38%; 
+    right:auto; 
+    bottom:auto; 
+    color:Red;
+}
+span {
+    display: block;
+    clear: left;
+    color: red;
+  }
